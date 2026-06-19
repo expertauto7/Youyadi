@@ -53,6 +53,7 @@ if( env( 'SHOP_MULTIROUTE' ) )
         ) )->where( ['locale' => '[a-z]{2}(\_[A-Z]{2})?', 'site' => '[A-Za-z0-9\.\-]+'], 'path', '.*' );
     });
 }
+
 Route::get('/az', function() {
-    return view('TEST'); // هنا سيقوم Laravel بالبحث عن ملف welcome.blade.php
+    return "✅ الموقع يعمل والمسار سليم!";
 });
