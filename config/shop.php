@@ -245,7 +245,10 @@ return array_replace_recursive( $multiroute, $multishop + [
         'en' => [
             'client' => [
                 'Suppliers' => ['Brands']
-            ]
+            ],
+            'currency' => [
+                'MAD' => ['DH '], // إجبار النظام على طباعة MAD في الإنجليزية
+            ],
         ],
         'ar' => [
             'currency' => [
