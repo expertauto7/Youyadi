@@ -242,12 +242,22 @@ return array_replace_recursive( $multiroute, $multishop + [
 	],
 
 	'i18n' => [
-		'en' => [
-			'client' => [
-				'Suppliers' => ['Brands']
-			]
-		]
-	],
+        'en' => [
+            'client' => [
+                'Suppliers' => ['Brands']
+            ]
+        ],
+        'ar' => [
+            'currency' => [
+                'MAD' => ['DH '], // فرض ظهور MAD في الواجهة العربية
+            ],
+        ],
+        'fr' => [
+            'currency' => [
+                'MAD' => ['DH '], // فرض ظهور MAD في الواجهة الفرنسية
+            ],
+        ],
+    ],
 
 	'madmin' => [
 		'cache' => [
