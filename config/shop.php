@@ -63,7 +63,7 @@ return array_replace_recursive( $multiroute, $multishop + [
 
 	'apc_enabled' => false, // enable for maximum performance if APCu is available
 	'apc_prefix' => 'aimeos:', // prefix for caching config and translation in APCu
-	'num_formatter' => 'Locale', // locale based number formatter (alternative: "Standard")
+	'num_formatter' => 'Standard', // locale based number formatter (alternative: "Standard")
 	'pcntl_max' => 4, // maximum number of parallel command line processes when starting jobs
 	'version' => env( 'APP_VERSION', 1 ), // shop CSS/JS file version
 	'roles' => ['admin', 'editor'], // user groups allowed to access the admin backend
